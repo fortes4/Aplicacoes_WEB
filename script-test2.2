@@ -1,0 +1,19 @@
+var numero = 1;
+// Comparação normal (compara apenas os valores)
+if(numero == "1") { //resultado: true
+    alert("== compara apenas os valores");
+}
+
+// Comparação restrita (compara valores e tipos das variáveis)
+var mensagem;
+if(numero === "1") { //resultado: false
+    alert("Nunca executa");
+} else {
+    alert("Number é diferente de String com o ===");
+}
+
+/*
+    Operador ternário (versão reduzida do IF)
+    condição ? se_verdadeiro : se_falso ;
+*/
+var x = (numero === "1") ?  alert("Nunca executa") :  alert("Number é diferente de String com o ===");
