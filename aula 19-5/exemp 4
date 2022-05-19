@@ -1,0 +1,9 @@
+<script>
+    var resultado="";
+    var numero =1;
+    while (numero<=10){
+        resultado += numero + " ";
+        numero++;
+    }
+    alert(resultado);
+</script>
