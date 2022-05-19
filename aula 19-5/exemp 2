@@ -1,0 +1,7 @@
+<script>
+    var var1;
+    while (var1 <= 10){
+        document.write('linha'+var1);
+        var1++;
+    }
+    </script>
