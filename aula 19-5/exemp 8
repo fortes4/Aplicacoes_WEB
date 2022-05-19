@@ -1,0 +1,8 @@
+<script>
+    var nome = "";
+    var pessoa = { nome:"Iara", sobrenome:"Almeida"};
+    for (x in pessoa) {
+        nome += pessoa[x] + " ";
+    }
+    alert(nome);
+</script>
