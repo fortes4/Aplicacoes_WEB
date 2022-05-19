@@ -1,0 +1,7 @@
+<script>
+    var pessoas = ["Joao", "Jose", "Maria", "Sebastiao", "Antonio"];
+
+    for (var i = 0; i < pessoas.length; i++) {
+        alert(pessoas[i]);
+    }
+</script>
