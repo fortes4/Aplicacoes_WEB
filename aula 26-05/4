@@ -1,0 +1,8 @@
+window.onload=function(){
+    // Localiza o elemento com id id_p
+    var p = document.getElementById('id_p');
+    // Localiza os elementos a (links) dentro do p
+    var links = p.getElementsByTagName('a');
+    // Alerta o atributo href do primeiro link
+    alert(links[0].href);
+    }
