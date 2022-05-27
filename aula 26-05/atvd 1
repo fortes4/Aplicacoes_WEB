@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="bt" onclick="alterarVermelho()" >Alterar o fundo para VERMELHO</button>
+        <button id="bt2" onclick="alterarVerde()" >Alterar o fundo para VERDE</button>
+        <button id="bt3" onclick="alterarAzul()" >Alterar o fundo para AZUL</button>
+        <button id="bt4" onclick="alterarAmarelo()" >Alterar o fundo para AMARELO</button>
+
+        <script>
+            function alterarVermelho(){
+                document.body.style.background="red";
+            }
+            function alterarVerde){
+                document.body.style.background="green";
+            }
+            function alterarAzul(){
+                document.body.style.background="blue";
+            }
+            function alterarAmarelo(){
+                document.body.style.background="yellow";
+            }
+        </script>
+    </body>
+</html>
