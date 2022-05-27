@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <p id="id_p" class="classe_p">Um texto qualquer</p>
+<script>
+    // Captura o evento load da página
+    window.onload=function(){
+
+    // Localiza o elemento com id "id_p"
+    var p = document.getElementById('id_p');
+
+    // Configura a propriedade backgroundColor do elemento
+    p.style.backgroundColor='#6A5ACD';
+    }
+</script>
+</html>
