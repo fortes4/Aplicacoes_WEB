@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Questionário sobre nome e idade</title>
+</head>
+<body>
+
+<p>Clique para exibir.</p>
+
+<button onclick="myFunction()">Clique aqui</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x;
+
+var nome=prompt("Digite seu nome:");
+var idade=prompt("Digite sua idade:");
+
+  x="Seu nome e: " + nome + " e voce tem " + idade + " anos.";
+  
+  alert
+  document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</body>
+</html>
