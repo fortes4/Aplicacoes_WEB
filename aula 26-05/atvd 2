@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <a href="nike.com.br" id="l1" onmouseover="alterarVermelho()">Alterar o fundo para VERMELHO</a>
+        <a href="adidas.com.br" id="l2" onmouseover="alterarVerde()">Alterar o fundo para VERDE</a>
+        <a href="br.puma.com" id="l3" onmouseover="alterarAzul()">Alterar o fundo para AZUL</a>
+        <a href="underarmour.com.br" id="l4" onmouseover="alterarAmarelo()">Alterar o fundo para AMARELO</a>
+
+        <script>
+            function alterarVermelho(){
+                document.body.style.background="red";
+            }
+            function alterarVerde(){
+                document.body.style.background="green";
+            }
+            function alterarAzul(){
+                document.body.style.background="blue";
+            }
+            function alterarAmarelo(){
+                document.body.style.background="yellow";
+            }
+        </script>
+    </body>
+</html>
