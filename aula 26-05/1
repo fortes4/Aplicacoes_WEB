@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <p>oi gente!</p>
+        <button id="bt1" onmouseleave="exibirAlert3()" onmouseenter="exibirAlert> </button>
+        <script>
+            function exibirAlert(){
+
+                alert("Exibindo alert");
+
+            }
+            function exibirAlert2(){
+
+                alert("Exibindo alert2");
+
+            }
+            function exibirAlert3(){
+
+                alert("Exibindo alert3");
+                
+            }
+        </script>
+    </body>
+</html>
