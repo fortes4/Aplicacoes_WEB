@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Questionario sobre maioridade</title>
+</head>
+<body>
+
+<p>Clique para exibir.</p>
+
+<button onclick="myFunction()">Clique aqui</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x;
+
+var idade=prompt("Digite sua idade:");
+
+if (idade>=18)
+  {
+    x = "Voce e maior de idade!"
+  }
+  else{
+    x = "Voce e menor de idade!"
+  }
+
+  document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</body>
+</html>
