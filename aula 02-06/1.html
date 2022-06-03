@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <select onchange="trocaCor(this)">
+            <option value = "blue">Azul</option>
+            <option value = "black">Preto</option>
+            <option value = "green">Verde</option>
+            <option value = "red">Vermelho</option>
+        </select>
+    
+      <script>
+        function trocaCor(sel){
+            document.body.style.background = sel.value;
+        }
+    </script>
+    </body>
+</html>
