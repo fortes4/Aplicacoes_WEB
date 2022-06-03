@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <legend> Qual seu animal favorito?</legend>
+        <input type="checkbox" name = "animais" onclick="verificaBtn()" value="Vaca"/> Vaca <br/>
+        <input type="checkbox" name = "animais" onclick="verificaBtn()" value="Cachorro"/> Cachorro <br/>
+        <input type="checkbox" name = "animais" onclick="verificaBtn()" value="Gato"/> Gato <br/>
+        <input type="checkbox" name = "animais" onclick="verificaBtn()" value="Papagaio"/> Papagaio <br/>
+        <button id="apv" disabled> Salvar </button>
+
+        <script>
+            function verificaBtn(){
+                var box = document.getElementsByName("animais");
+                 var contador = 0;
+                for(i=0;i<box.length;i++){
+                     if(box[i].checked == true){
+                        contador++;
+                }
+            }
+
+            if(contador>=2){
+                document.getElementById("apv").removeAttribute("disabled");
+            }
+            else{
+                document.getElementById("apv").setAttribute("disabled","disabled");
+            }
+            }
+        </script>
+    </body>
+</html>
