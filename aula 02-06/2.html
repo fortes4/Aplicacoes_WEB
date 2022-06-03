@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <div class="aparecer">
+        <p>ACHOU!!!!</p>
+    </div>
+    <button id='botao'>Ocultar/Mostrar</button>
+
+    <script>
+        var botao = document.getElementById('botao');
+        var aparecer = document.querySelector('.aparecer');
+        botao.addEventListener('click', function() {
+        
+    if(aparecer.style.display === 'block') {
+        aparecer.style.display = 'none';
+    } else {
+        aparecer.style.display = 'block';
+    }
+    });
+    </script>
+    </body>
+</html>
