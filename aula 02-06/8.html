@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            
+            Login: <input type="text" id="login"><br><br>
+            Senha: <input type="password" id="password" minlength="6" maxlength="10"><br><br>
+            Confirmar Senha: <input type="password" id="confirm_senha" minlength="6" maxlength="10"><br><br>
+            <button id="bt" onclick="submit()">Confirmar</button>
+
+        
+
+        <script>
+
+            function submit(){
+
+                var usuario = document.getElementById("login").value;
+                var senha = document.getElementById("password").value;
+                var conf_senha = document.getElementById("confirm_senha").value;
+
+                    
+                    if(usuario == "" || senha == "" || conf_senha == ""){
+                        alert("Preencha todos os campos!");
+                    }
+
+                    
+                    else if(senha != conf_senha){
+                        alert("As senha nao conferem!");
+                    }
+                    
+                    
+                    else{
+                        alert("Cadastro Concluido");
+                    }
+                
+            }
+        </script>
+    </body>
+</html>
